@@ -23,20 +23,55 @@ Er war Mitglied des ersten Denkmalrat, der aufgrund des 1902 im Großherzogtum H
 # Repositorium
 
 ## dilibri
+Das Repositiorium ["Dilibri"](https://www.dilibri.de) ist die digitalisierte Sammlung von landeskundlichen Werken zu Rheinland-Pfalz sowie aus Beständen aus rheinland-pfälzischen Bibliotheken.
 
 ## Metadaten
 
-- **Titel:**
-- **Verfasser:**
-- **Erschienen:**
-- **Erscheinungsweise:**
-- **Serie:**
-- **Schlagwörter:**
-- **Online-Ausgabe:**
-- **URN:**
+### Deskriptive Metdaten
+- Titel
+- Verfasser
+- Erschienen
+- Erscheinungsweise
+- Serie
+- Schlagwörter
+- Online-Ausgabe
+- URN
+- Klassifikation
 
-- **Klassifikation:**
-- **Inhalt:**
+### Administrative Metadaten
 - **Lizenz/Rechtehinweis:**
 
+### Strukturelle Metadaten
+- **Inhalt:** Titelblatt, Vorwort, Verzeichnis, Tafeln
+
 ## Beschreibung des Digitalisats
+Zum Digitalisat erfährt man über die Plattform zunächst nichts.
+Kriterien zur Bewertung eines Digitalisats können u.a. sein:
+
+### 1. Bildqualität
+- Auflösung
+- Schärfe
+- Kontrast
+- Farbtiefe
+- Artefakte/"Noise"
+
+### 2. Texterkennung
+- Durchsuchbarkeit
+- Erfassungsgenauigkeit
+- Layout-Erkennung
+
+### 3. Dateigröße und Komprimierung
+- Formatwahl
+- Balance zwischen Qualität und Größe
+
+### 4. Strukturierung und Metadaten
+- Vorhandensein von Metadaten
+- Barrierefreiheit
+- Navigationsmöglichkeiten
+
+### 5. Integrität der Quelle
+- Vollständigkeit
+- Nachvollziehbarkeit & Dokumentation von Veränderungen
+
+
+

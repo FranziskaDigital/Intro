@@ -104,7 +104,7 @@ df = df.drop(columns=["UnnötigeSpalte"])
 
 ---
 
-### 6. ** Inhalte mit Regular Expressions (Regex) ersetzen (auch ohne Pandas möglich mit Python-Modul re)**
+### 6. **Inhalte mit Regular Expressions (Regex) ersetzen (auch ohne Pandas möglich mit Python-Modul re)**
 
 df['Text'] = df['Text'].str.replace(r'\bae\b', 'ä', regex=True)
 

@@ -104,7 +104,7 @@ df = df.drop(columns=["UnnötigeSpalte"])
 
 ---
 
-### 6. ** Inhalte mit Regular Expressions (Regex) ersetzen (auch ohne Pandas möglich mit Python-Modul re)
+### 6. ** Inhalte mit Regular Expressions (Regex) ersetzen (auch ohne Pandas möglich mit Python-Modul re)**
 
 df['Text'] = df['Text'].str.replace(r'\bae\b', 'ä', regex=True)
 
@@ -122,8 +122,11 @@ df.to_csv("bereinigte_daten.csv")
 
 
 ## OpenRefine
+[OpenRefine](https://openrefine.org/) ist ein Open-Source-Tool zur Datenbereinigung. Insbesondere von Daten, die in Tabellenform vorliegen.
 
+Tutorials zur Einführung können [hier](https://www.wikidata.org/wiki/Wikidata:Tools/OpenRefine/Editing/Tutorials/Video) gefunden werden.
 
 
 # Datenextraktion
-
+Die Datenextraktion kann ebenfalls mit Python aus der bereinigten txt-Datei erfolgen. So kann beispielsweise nach konkreten Wörtern gesucht werden, wie zum Beispiel nach dem Wort oder Wortbestandteil "Haus".
+Sie hierfür ds Python-Skript [Datenextraktion.py](02_Digitalisierung/Datenextraktion.py) sowie die Ausgabedatei [extrahierte_häuser_mainz.csv](02_Digitalisierung/extrahierte_häuser_mainz.csv).

@@ -104,9 +104,19 @@ df = df.drop(columns=["UnnötigeSpalte"])
 
 ---
 
-### 6. **Speichern der bereinigten Daten**
+### 6. ** Inhalte mit Regular Expressions (Regex) ersetzen (auch ohne Pandas möglich mit Python-Modul re)
+
+df['Text'] = df['Text'].str.replace(r'\bae\b', 'ä', regex=True)
+
+Weitere Informationen zu regulären Ausdrücken können bspw. [hier](https://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck) gefunden werden.
+
+Siehe hierfür Python-Datei: [Re-Modul.py](02_Digitalisierung/Re-Modul.py) und [regex_pandas.py](02_Digitalisierung/regex_pandas.py)
+
+
+
+### 7. **Speichern der bereinigten Daten**
 ```python
-df.to_csv("bereinigte_daten.csv", index=False)
+df.to_csv("bereinigte_daten.csv")
 ```
 
 

@@ -33,9 +33,87 @@ Es werden im Allgemeinen 4 Typen von Metadaten unterschieden: technische, deskri
 
 # Datenbereinigung
 
-## Python-Bibliothek Padas
+## Python-Bibliothek Pandas
+
+Die Python-Bibliothek Pandas kann nicht nur für die Analyse von Daten genutzt werden, sondern auch für eine teilautomatisierte Datenbereinigung, um fehlerhafte, unvollständige oder inkonsistente Daten zu korrigieren.
+
+---
+
+### 1. **Laden der Daten**
+
+```python
+import pandas as pd
+
+df = pd.read_csv("daten.csv")  
+```
+
+---
+
+### 2. **Fehlende Werte behandeln**
+
+#### Fehlende Werte anzeigen:
+```python
+print(df.isnull().sum())  # Zeigt die Anzahl fehlender Werte pro Spalte
+```
+
+#### Fehlende Werte entfernen:
+```python
+df = df.dropna()  # Entfernt alle Zeilen mit fehlenden Werten
+```
+
+#### Fehlende Werte ersetzen:
+```python
+df["Alter"].fillna(df["Alter"].mean(), inplace=True)  # Ersetzt fehlende Werte mit dem Durchschnitt
+```
+
+---
+
+### 3. **Doppelte Werte entfernen**
+
+```python
+df = df.drop_duplicates()
+```
+
+Falls du nur bestimmte Spalten berücksichtigen möchtest:
+```python
+df = df.drop_duplicates(subset=["Name", "Alter"])
+```
+
+---
+
+### 4. **Inkonsistente Werte korrigieren**
+
+#### Inkonsistente Groß-/Kleinschreibung:
+```python
+df["Name"] = df["Name"].str.lower()  # Alles in Kleinbuchstaben umwandeln
+```
+
+---
+
+### 5. **Spalten umbenennen und entfernen**
+
+#### Spalten umbenennen:
+```python
+df = df.rename(columns={"alte_spalte": "neue_spalte"})
+```
+
+#### Unnötige Spalten löschen:
+```python
+df = df.drop(columns=["UnnötigeSpalte"])
+```
+
+---
+
+### 6. **Speichern der bereinigten Daten**
+```python
+df.to_csv("bereinigte_daten.csv", index=False)
+```
+
+
 
 ## OpenRefine
+
+
 
 # Datenextraktion
 

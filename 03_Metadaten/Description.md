@@ -27,6 +27,10 @@ Der Exif-Standard gibt u.a. Auskunft über:
     - Vorschaubild („Thumbnail“)
     - Kameratyp
 
+### MARC
+Das MAchine-Readable Cataloging-Format ist ein bibliographisches Datenformat. Entwickelt wurde es 1969 an der Library of Congress in den USA. 
+MARC liefert das Protokoll, durch das Computer bibliografische Informationen miteinander austauschen können. Seine Datenelemente bilden die Grundlage für die meisten heute benutzten Bibliothekskataloge. Aktuell scheinen besonders UNIMARC und MARC 21 von Bedeutung zu sein.
+Siehe Beispieldatei: 03_Metadaten/MARC.xml
 
 ### METS
 Metadata Encoding and Transmission Standard) ist ein Standard zur XMLbasierten Kodierung von deskriptiven, administrativen und strukturellen Metadaten von Objekten innerhalb einer digitalen Bibliothek. METS wirkt dabei als ein Container, bei dem in einzelnen Abschnitten andere Formate (z. B. Dublin Core, MODS, MARC) untergebracht werdenkönnen. Der METS-Standard wird von der Library of Congress gepflegt und das zugehörige Datenschema von der Digital Library Federation, einem nordamerikanischen Bibliotheksverbund weiterentwickelt.
@@ -44,10 +48,21 @@ Metadata Object Description Schema ist ein XML-Format für bibliografische (desk
 | Flexibilität         | Integration anderer Standards            | Vereinfachung von MARC          |
 | Zielgruppe           | Digitale Bibliotheken und Archive        | Bibliotheken und Katalogsysteme |
 
-## Datenstandards, Thesauri und Klassifikationssysteme
+## Thesauri und Klassifikationssysteme
 
-CCO
-AAT
-UDS
-CERIF
-MARC
+### Thesauri
+Thesauri sind kontrollierte Vokabulare. Als Thesaurus bezeichnet man ein Modell, das versucht, ein Themengebiet genau zu beschreiben und zu repräsentieren. Es besteht aus einer systematisch geordneten Sammlung von Begriffen, die in thematischer Beziehung zueinander stehen.
+
+- Art and Architecture Thesaurus (AAT)
+- Europäischer Thesaurus Internationale Beziehungen und Länderkunde
+- Getty Thesaurus of Geographic Names
+- UNESCO Thesaurus
+
+### Klassifikationssysteme
+Eine Klassifikation ist eine planmäßige Sammlung von abstrakten Klassen (auch Konzepten, Typen oder Kategorien), die zur Abgrenzung und Ordnung verwendet werden. Zahlreiche Klassifikationen sind hierarchisch in Ebenen strukturiert.  
+
+- UDS = (Universal Decimal Classification): Ein Klassifikationssystem für Wissensgebiete, hauptsächlich in Bibliotheken.
+- ABS = Allgemeine Systematik für Öffentliche Bibliotheken
+
+
+

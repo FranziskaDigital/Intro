@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='./oai2.xsl'?>
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2025-02-02T14:51:50Z</responseDate>
+  <responseDate>2025-02-02T15:02:23Z</responseDate>
   <request verb="GetRecord" metadataPrefix="marcxml" identifier="1756131104">https://haab-digital.klassik-stiftung.de/viewer/oai</request>
   <GetRecord>
     <record>

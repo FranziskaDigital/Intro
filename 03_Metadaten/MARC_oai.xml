@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='./oai2.xsl'?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2025-02-02T14:51:50Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="marcxml" identifier="1756131104">https://haab-digital.klassik-stiftung.de/viewer/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>1756131104</identifier>
+        <datestamp>2021-01-12T13:09:19Z</datestamp>
+        <setSpec>variaderhaabweimar</setSpec>
+      </header>
+      <metadata>
+        <marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+          <marc:leader>12345nm  22     uu 4500</marc:leader>
+          <marc:controlfield tag="001">1756131104</marc:controlfield>
+          <marc:controlfield tag="003">gbv-epn</marc:controlfield>
+          <marc:controlfield tag="008">s           |||||||||||||||||ger||</marc:controlfield>
+          <datafield xmlns="" tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="a">München</marc:subfield>
+            <marc:subfield code="b">Langen</marc:subfield>
+            <marc:subfield code="c">[1925]</marc:subfield>
+            <marc:subfield code="c">1925</marc:subfield>
+          </datafield>
+          <datafield xmlns="" tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Ein Versuchshaus des Bauhauses in Weimar</marc:subfield>
+          </datafield>
+          <datafield xmlns="" tag="130" ind1="0" ind2=" ">
+            <marc:subfield code="a">Versuchshaus des Bauhauses in Weimar</marc:subfield>
+          </datafield>
+          <datafield xmlns="" tag="" ind1=" " ind2=" ">
+            <marc:subfield code="a">Alle Rechte vorbehalten</marc:subfield>
+          </datafield>
+          <datafield xmlns="" tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">78 S.</marc:subfield>
+          </datafield>
+          <datafield xmlns="" tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">8°</marc:subfield>
+          </datafield>
+          <datafield xmlns="" tag="720" ind1=" " ind2=" ">
+            <marc:subfield code="a">Meyer</marc:subfield>
+          </datafield>
+          <datafield xmlns="" tag="650" ind1="1" ind2=" ">
+            <marc:subfield code="a">versuc</marc:subfield>
+          </datafield>
+          <datafield xmlns="" tag="250" ind1=" " ind2=" ">
+            <marc:subfield code="a">[Electronic ed.]</marc:subfield>
+          </datafield>
+          <datafield xmlns="" tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="a">Weimar</marc:subfield>
+            <marc:subfield code="b">Herzogin Anna Amalia Bibliothek Weimar</marc:subfield>
+          </datafield>
+          <datafield xmlns="" tag="852" ind1=" " ind2=" ">
+            <marc:subfield code="a">Herzogin Anna Amalia Bibliothek Weimar</marc:subfield>
+          </datafield>
+          <datafield xmlns="" tag="" ind1=" " ind2=" ">
+            <marc:subfield code="a">2000</marc:subfield>
+          </datafield>
+          <datafield xmlns="" tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Ill.</marc:subfield>
+          </datafield>
+        </marc:record>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

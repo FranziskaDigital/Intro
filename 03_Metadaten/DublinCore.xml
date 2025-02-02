@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='./oai2.xsl'?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2025-02-02T14:52:00Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="oai_dc" identifier="1756131104">https://haab-digital.klassik-stiftung.de/viewer/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>urn:nbn:de:gbv:32-1-10027100871</identifier>
+        <datestamp>2021-01-12T13:09:19Z</datestamp>
+        <setSpec>variaderhaabweimar</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Ein Versuchshaus des Bauhauses in Weimar</dc:title>
+          <dc:creator>Meyer, Adolf</dc:creator>
+          <dc:subject>Varia der HAAB Weimar</dc:subject>
+          <dc:publisher>Langen</dc:publisher>
+          <dc:date>[1925]</dc:date>
+          <dc:type>Monograph</dc:type>
+          <dc:type>text</dc:type>
+          <dc:format>image/jpeg</dc:format>
+          <dc:format>application/pdf</dc:format>
+          <dc:identifier>https://haab-digital.klassik-stiftung.de/viewer/resolver?urn=urn:nbn:de:gbv:32-1-10027100871</dc:identifier>
+          <dc:source>Meyer, Adolf: Ein Versuchshaus des Bauhauses in Weimar, München: Langen [1925].</dc:source>
+          <dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+          <dc:description>EIN VERSUCHSHAUS DES BAUHAUSES IN WEIMAR
+
+Ein Versuchshaus des Bauhauses in Weimar ( - )
+
+     Cover ( - )
+
+     Titelseite Schriftenreihe (2)
+
+     Titelseite (3)
+
+     Imprint (4)
+
+     Walter Gropius: Wohnhaus-Industrie (5)
+
+     Georg Muche: Das Versuchshaus des Bauhauses (15)
+
+     Adolf Meyer: Der Aufbau des Versuchshauses (24)
+
+     Technische Ausführung (25)
+
+          A Rohbauarbeiten (25)
+
+          B Ausbauarbeiten (37)
+
+          C Installationsarbeiten (44)
+
+          D Inneneinrichtung (64)
+
+     Verschiedenes (78)</dc:description>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

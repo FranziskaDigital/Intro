@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets OBJID="31284" xsi:schemaLocation="http://www.loc.gov/standards/premis/ http://www.loc.gov/standards/premis/v2/premis-v2-0.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/standards/mix/ http://www.loc.gov/standards/mix/mix.xsd" xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dv="http://dfg-viewer.de/" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <mets:metsHdr CREATEDATE="2021-01-12T13:09:19Z">
+      <mets:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER">
+         <mets:name>Goobi - 9d4e2 - 2020-04-26 03:23:26+0000</mets:name>
+         <mets:note>Goobi</mets:note>
+      </mets:agent>
+   </mets:metsHdr>
+   <mets:dmdSec ID="DMDLOG_0000">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:originInfo>
+                  <mods:publisher>Langen</mods:publisher>
+                  <mods:place>
+                     <mods:placeTerm type="text">München</mods:placeTerm>
+                  </mods:place>
+                  <mods:dateIssued>[1925]</mods:dateIssued>
+                  <mods:dateIssued encoding="w3cdtf" keyDate="yes">1925</mods:dateIssued>
+               </mods:originInfo>
+               <mods:titleInfo>
+                  <mods:title>Ein Versuchshaus des Bauhauses in Weimar</mods:title>
+               </mods:titleInfo>
+               <mods:titleInfo type="uniform">
+                  <mods:title>Versuchshaus des Bauhauses in Weimar</mods:title>
+               </mods:titleInfo>
+               <mods:identifier type="gbv-epn">1222836726</mods:identifier>
+               <mods:identifier type="gbv-ppn">193909650</mods:identifier>
+               <mods:recordInfo>
+                  <mods:recordIdentifier source="gbv-epn">1756131104</mods:recordIdentifier>
+               </mods:recordInfo>
+               <mods:identifier source="gbv-ppn">1014912881</mods:identifier>
+               <mods:classification>Varia der HAAB Weimar</mods:classification>
+               <mods:language>
+                  <mods:languageTerm authority="iso639-2b" type="code">ger</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="use and reproduction">Alle Rechte vorbehalten</mods:accessCondition>
+               <mods:physicalDescription>
+                  <mods:extent>78 S.</mods:extent>
+                  <mods:note type="source dimensions">8°</mods:note>
+                  <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+               </mods:physicalDescription>
+               <mods:name authority="gnd" authorityURI="http://d-nb.info/gnd/" type="personal" valueURI="http://d-nb.info/gnd/119315033">
+                  <mods:role>
+                     <mods:roleTerm authority="marcrelator" type="code">oth</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart type="family">Meyer</mods:namePart>
+                  <mods:namePart type="given">Adolf</mods:namePart>
+                  <mods:displayForm>Meyer, Adolf</mods:displayForm>
+               </mods:name>
+               <mods:subject>
+                  <mods:topic>versuc</mods:topic>
+               </mods:subject>
+               <mods:originInfo>
+                  <mods:place>
+                     <mods:placeTerm type="text">Weimar</mods:placeTerm>
+                  </mods:place>
+                  <mods:publisher>Herzogin Anna Amalia Bibliothek Weimar</mods:publisher>
+                  <mods:edition>[Electronic ed.]</mods:edition>
+                  <mods:dateCaptured encoding="w3cdtf">2018</mods:dateCaptured>
+               </mods:originInfo>
+               <mods:location>
+                  <mods:physicalLocation>Herzogin Anna Amalia Bibliothek Weimar</mods:physicalLocation>
+                  <mods:shelfLocator>Ku 8° V C - 14 (a)</mods:shelfLocator>
+               </mods:location>
+               <mods:accessCondition type="restriction on access">2000</mods:accessCondition>
+               <mods:note type="illustrationindication">Ill.</mods:note>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:dmdSec ID="DMDLOG_0001">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:titleInfo>
+                  <mods:title>Titelseite Schriftenreihe</mods:title>
+               </mods:titleInfo>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:dmdSec ID="DMDLOG_0002">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:titleInfo>
+                  <mods:title>Titelseite</mods:title>
+               </mods:titleInfo>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:dmdSec ID="DMDLOG_0003">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:titleInfo>
+                  <mods:title>Walter Gropius: Wohnhaus-Industrie</mods:title>
+               </mods:titleInfo>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:dmdSec ID="DMDLOG_0004">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:titleInfo>
+                  <mods:title>Georg Muche: Das Versuchshaus des Bauhauses</mods:title>
+               </mods:titleInfo>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:dmdSec ID="DMDLOG_0005">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:titleInfo>
+                  <mods:title>Adolf Meyer: Der Aufbau des Versuchshauses</mods:title>
+               </mods:titleInfo>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:dmdSec ID="DMDLOG_0006">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:titleInfo>
+                  <mods:title>Technische Ausführung</mods:title>
+               </mods:titleInfo>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:dmdSec ID="DMDLOG_0007">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:titleInfo>
+                  <mods:title>A Rohbauarbeiten</mods:title>
+               </mods:titleInfo>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:dmdSec ID="DMDLOG_0008">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:titleInfo>
+                  <mods:title>B Ausbauarbeiten</mods:title>
+               </mods:titleInfo>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:dmdSec ID="DMDLOG_0009">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:titleInfo>
+                  <mods:title>C Installationsarbeiten</mods:title>
+               </mods:titleInfo>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:dmdSec ID="DMDLOG_0010">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:titleInfo>
+                  <mods:title>D Inneneinrichtung</mods:title>
+               </mods:titleInfo>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:dmdSec ID="DMDLOG_0011">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:titleInfo>
+                  <mods:title>Verschiedenes</mods:title>
+               </mods:titleInfo>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:amdSec ID="AMD">
+      <mets:rightsMD ID="RIGHTS">
+         <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS">
+            <mets:xmlData>
+               <dv:rights>
+                  <dv:owner>Herzogin Anna Amalia Bibliothek, Klassik Stiftung Weimar</dv:owner>
+                  <dv:ownerLogo>http://haab-digital.klassik-stiftung.de/viewer/resources/themes/haab/images/dfgviewer_haab.jpg</dv:ownerLogo>
+                  <dv:ownerSiteURL>http://www.klassik-stiftung.de/einrichtungen/herzogin-anna-amalia-bibliothek/</dv:ownerSiteURL>
+                  <dv:ownerContact>mailto:digitalisierung.haab@klassik-stiftung.de</dv:ownerContact>
+               </dv:rights>
+            </mets:xmlData>
+         </mets:mdWrap>
+      </mets:rightsMD>
+      <mets:digiprovMD ID="DIGIPROV">
+         <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVLINKS">
+            <mets:xmlData>
+               <dv:links>
+                  <dv:reference>https://lhwei.gbv.de/DB=2/SET=4/TTL=1/CMD?ACT=SRCHA&amp;IKT=54&amp;SRT=YOP&amp;TRM=EPN%201756131104%20OR%201222836726</dv:reference>
+                  <dv:presentation>http://haab-digital.klassik-stiftung.de/viewer/ppnresolver?id=1756131104</dv:presentation>
+               </dv:links>
+            </mets:xmlData>
+         </mets:mdWrap>
+      </mets:digiprovMD>
+   </mets:amdSec>
+   <mets:fileSec>
+      <mets:fileGrp USE="PRESENTATION">
+         <mets:file ID="FILE_0001_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0000.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0002_PRESENTATION" MIMETYPE="image/tiff" USE="banner">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0001.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0003_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0002.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0004_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0003.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0005_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0004.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0006_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0005.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0007_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0006.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0008_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0007.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0009_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0008.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0010_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0009.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0011_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0010.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0012_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0011.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0013_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0012.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0014_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0013.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0015_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0014.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0016_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0015.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0017_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0016.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0018_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0017.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0019_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0018.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0020_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0019.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0021_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0020.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0022_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0021.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0023_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0022.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0024_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0023.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0025_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0024.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0026_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0025.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0027_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0026.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0028_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0027.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0029_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0028.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0030_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0029.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0031_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0030.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0032_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0031.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0033_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0032.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0034_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0033.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0035_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0034.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0036_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0035.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0037_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0036.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0038_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0037.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0039_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0038.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0040_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0039.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0041_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0040.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0042_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0041.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0043_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0042.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0044_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0043.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0045_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0044.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0046_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0045.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0047_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0046.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0048_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0047.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0049_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0048.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0050_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0049.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0051_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0050.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0052_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0051.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0053_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0052.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0054_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0053.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0055_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0054.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0056_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0055.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0057_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0056.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0058_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0057.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0059_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0058.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0060_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0059.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0061_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0060.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0062_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0061.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0063_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0062.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0064_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0063.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0065_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0064.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0066_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0065.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0067_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0066.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0068_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0067.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0069_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0068.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0070_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0069.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0071_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0070.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0072_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0071.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0073_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0072.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0074_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0073.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0075_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0074.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0076_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0075.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0077_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0076.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0078_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0077.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0079_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0078.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0080_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0079.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0081_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0080.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0082_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0081.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0083_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0082.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0084_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0083.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0085_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0084.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0086_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0085.tif"/>
+         </mets:file>
+         <mets:file ID="FILE_0087_PRESENTATION" MIMETYPE="image/tiff">
+            <mets:FLocat LOCTYPE="URL" xlink:href="file:///opt/digiverso/viewer/media/1756131104/EPN_1222836726_0086.tif"/>
+         </mets:file>
+      </mets:fileGrp>
+      <mets:fileGrp USE="DEFAULT">
+         <mets:file ID="FILE_0001_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0000.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0002_DEFAULT" MIMETYPE="image/jpeg" USE="banner">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0001.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0003_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0002.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0004_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0003.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0005_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0004.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0006_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0005.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0007_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0006.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0008_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0007.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0009_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0008.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0010_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0009.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0011_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0010.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0012_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0011.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0013_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0012.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0014_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0013.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0015_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0014.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0016_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0015.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0017_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0016.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0018_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0017.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0019_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0018.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0020_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0019.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0021_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0020.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0022_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0021.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0023_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0022.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0024_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0023.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0025_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0024.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0026_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0025.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0027_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0026.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0028_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0027.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0029_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0028.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0030_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0029.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0031_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0030.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0032_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0031.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0033_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0032.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0034_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0033.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0035_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0034.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0036_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0035.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0037_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0036.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0038_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0037.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0039_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0038.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0040_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0039.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0041_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0040.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0042_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0041.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0043_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0042.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0044_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0043.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0045_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0044.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0046_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0045.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0047_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0046.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0048_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0047.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0049_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0048.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0050_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0049.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0051_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0050.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0052_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0051.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0053_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0052.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0054_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0053.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0055_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0054.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0056_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0055.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0057_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0056.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0058_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0057.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0059_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0058.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0060_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0059.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0061_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0060.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0062_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0061.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0063_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0062.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0064_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0063.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0065_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0064.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0066_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0065.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0067_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0066.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0068_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0067.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0069_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0068.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0070_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0069.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0071_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0070.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0072_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0071.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0073_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0072.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0074_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0073.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0075_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0074.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0076_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0075.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0077_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0076.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0078_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0077.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0079_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0078.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0080_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0079.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0081_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0080.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0082_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0081.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0083_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0082.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0084_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0083.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0085_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0084.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0086_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0085.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0087_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL" xlink:href="https://haab-digital.klassik-stiftung.de/viewer/content/1756131104/800/0/EPN_1222836726_0086.jpg"/>
+         </mets:file>
+      </mets:fileGrp>
+   </mets:fileSec>
+   <mets:structMap TYPE="LOGICAL">
+      <mets:div ADMID="AMD" CONTENTIDS="urn:nbn:de:gbv:32-1-10027100871" DMDID="DMDLOG_0000" ID="LOG_0000" LABEL="Ein Versuchshaus des Bauhauses in Weimar" TYPE="Monograph">
+         <mets:div ID="LOG_0001" TYPE="Cover"/>
+         <mets:div DMDID="DMDLOG_0001" ID="LOG_0002" LABEL="Titelseite Schriftenreihe" TYPE="TitlePage"/>
+         <mets:div DMDID="DMDLOG_0002" ID="LOG_0003" LABEL="Titelseite" TYPE="TitlePage"/>
+         <mets:div ID="LOG_0004" TYPE="Imprint"/>
+         <mets:div DMDID="DMDLOG_0003" ID="LOG_0005" LABEL="Walter Gropius: Wohnhaus-Industrie" TYPE="Chapter"/>
+         <mets:div DMDID="DMDLOG_0004" ID="LOG_0006" LABEL="Georg Muche: Das Versuchshaus des Bauhauses" TYPE="Chapter"/>
+         <mets:div DMDID="DMDLOG_0005" ID="LOG_0007" LABEL="Adolf Meyer: Der Aufbau des Versuchshauses" TYPE="Chapter"/>
+         <mets:div DMDID="DMDLOG_0006" ID="LOG_0008" LABEL="Technische Ausführung" TYPE="Chapter">
+            <mets:div DMDID="DMDLOG_0007" ID="LOG_0009" LABEL="A Rohbauarbeiten" TYPE="Chapter"/>
+            <mets:div DMDID="DMDLOG_0008" ID="LOG_0010" LABEL="B Ausbauarbeiten" TYPE="Chapter"/>
+            <mets:div DMDID="DMDLOG_0009" ID="LOG_0011" LABEL="C Installationsarbeiten" TYPE="Chapter"/>
+            <mets:div DMDID="DMDLOG_0010" ID="LOG_0012" LABEL="D Inneneinrichtung" TYPE="Chapter"/>
+         </mets:div>
+         <mets:div DMDID="DMDLOG_0011" ID="LOG_0013" LABEL="Verschiedenes" TYPE="Chapter"/>
+      </mets:div>
+   </mets:structMap>
+   <mets:structMap TYPE="PHYSICAL">
+      <mets:div ID="PHYS_0000" TYPE="physSequence">
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027100888" ID="PHYS_0001" ORDER="1" ORDERLABEL=" - " TYPE="page">
+            <mets:fptr FILEID="FILE_0001_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0001_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027100891" ID="PHYS_0002" ORDER="2" ORDERLABEL=" - " TYPE="page">
+            <mets:fptr FILEID="FILE_0002_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0002_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027100900" ID="PHYS_0003" ORDER="3" ORDERLABEL=" - " TYPE="page">
+            <mets:fptr FILEID="FILE_0003_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0003_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027100914" ID="PHYS_0004" ORDER="4" ORDERLABEL=" - " TYPE="page">
+            <mets:fptr FILEID="FILE_0004_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0004_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027100922" ID="PHYS_0005" ORDER="5" ORDERLABEL=" - " TYPE="page">
+            <mets:fptr FILEID="FILE_0005_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0005_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027100931" ID="PHYS_0006" ORDER="6" ORDERLABEL=" - " TYPE="page">
+            <mets:fptr FILEID="FILE_0006_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0006_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027100940" ID="PHYS_0007" ORDER="7" ORDERLABEL=" - " TYPE="page">
+            <mets:fptr FILEID="FILE_0007_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0007_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027100950" ID="PHYS_0008" ORDER="8" ORDERLABEL=" - " TYPE="page">
+            <mets:fptr FILEID="FILE_0008_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0008_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027100964" ID="PHYS_0009" ORDER="9" ORDERLABEL="1" TYPE="page">
+            <mets:fptr FILEID="FILE_0009_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0009_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027100979" ID="PHYS_0010" ORDER="10" ORDERLABEL="2" TYPE="page">
+            <mets:fptr FILEID="FILE_0010_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0010_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027100989" ID="PHYS_0011" ORDER="11" ORDERLABEL="3" TYPE="page">
+            <mets:fptr FILEID="FILE_0011_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0011_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027100993" ID="PHYS_0012" ORDER="12" ORDERLABEL="4" TYPE="page">
+            <mets:fptr FILEID="FILE_0012_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0012_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101009" ID="PHYS_0013" ORDER="13" ORDERLABEL="5" TYPE="page">
+            <mets:fptr FILEID="FILE_0013_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0013_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101013" ID="PHYS_0014" ORDER="14" ORDERLABEL="6" TYPE="page">
+            <mets:fptr FILEID="FILE_0014_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0014_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101024" ID="PHYS_0015" ORDER="15" ORDERLABEL="7" TYPE="page">
+            <mets:fptr FILEID="FILE_0015_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0015_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101035" ID="PHYS_0016" ORDER="16" ORDERLABEL="8" TYPE="page">
+            <mets:fptr FILEID="FILE_0016_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0016_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101041" ID="PHYS_0017" ORDER="17" ORDERLABEL="9" TYPE="page">
+            <mets:fptr FILEID="FILE_0017_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0017_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101055" ID="PHYS_0018" ORDER="18" ORDERLABEL="10" TYPE="page">
+            <mets:fptr FILEID="FILE_0018_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0018_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101063" ID="PHYS_0019" ORDER="19" ORDERLABEL="11" TYPE="page">
+            <mets:fptr FILEID="FILE_0019_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0019_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101071" ID="PHYS_0020" ORDER="20" ORDERLABEL="12" TYPE="page">
+            <mets:fptr FILEID="FILE_0020_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0020_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101082" ID="PHYS_0021" ORDER="21" ORDERLABEL="13" TYPE="page">
+            <mets:fptr FILEID="FILE_0021_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0021_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101098" ID="PHYS_0022" ORDER="22" ORDERLABEL="14" TYPE="page">
+            <mets:fptr FILEID="FILE_0022_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0022_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101105" ID="PHYS_0023" ORDER="23" ORDERLABEL="15" TYPE="page">
+            <mets:fptr FILEID="FILE_0023_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0023_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101116" ID="PHYS_0024" ORDER="24" ORDERLABEL="16" TYPE="page">
+            <mets:fptr FILEID="FILE_0024_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0024_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101129" ID="PHYS_0025" ORDER="25" ORDERLABEL="17" TYPE="page">
+            <mets:fptr FILEID="FILE_0025_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0025_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101136" ID="PHYS_0026" ORDER="26" ORDERLABEL="18" TYPE="page">
+            <mets:fptr FILEID="FILE_0026_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0026_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101140" ID="PHYS_0027" ORDER="27" ORDERLABEL="19" TYPE="page">
+            <mets:fptr FILEID="FILE_0027_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0027_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101153" ID="PHYS_0028" ORDER="28" ORDERLABEL="20" TYPE="page">
+            <mets:fptr FILEID="FILE_0028_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0028_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101169" ID="PHYS_0029" ORDER="29" ORDERLABEL="21" TYPE="page">
+            <mets:fptr FILEID="FILE_0029_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0029_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101176" ID="PHYS_0030" ORDER="30" ORDERLABEL="22" TYPE="page">
+            <mets:fptr FILEID="FILE_0030_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0030_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101187" ID="PHYS_0031" ORDER="31" ORDERLABEL="23" TYPE="page">
+            <mets:fptr FILEID="FILE_0031_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0031_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101194" ID="PHYS_0032" ORDER="32" ORDERLABEL="24" TYPE="page">
+            <mets:fptr FILEID="FILE_0032_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0032_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101201" ID="PHYS_0033" ORDER="33" ORDERLABEL="25" TYPE="page">
+            <mets:fptr FILEID="FILE_0033_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0033_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101219" ID="PHYS_0034" ORDER="34" ORDERLABEL="26" TYPE="page">
+            <mets:fptr FILEID="FILE_0034_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0034_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101225" ID="PHYS_0035" ORDER="35" ORDERLABEL="27" TYPE="page">
+            <mets:fptr FILEID="FILE_0035_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0035_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101238" ID="PHYS_0036" ORDER="36" ORDERLABEL="28" TYPE="page">
+            <mets:fptr FILEID="FILE_0036_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0036_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101249" ID="PHYS_0037" ORDER="37" ORDERLABEL="29" TYPE="page">
+            <mets:fptr FILEID="FILE_0037_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0037_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101251" ID="PHYS_0038" ORDER="38" ORDERLABEL="30" TYPE="page">
+            <mets:fptr FILEID="FILE_0038_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0038_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101266" ID="PHYS_0039" ORDER="39" ORDERLABEL="31" TYPE="page">
+            <mets:fptr FILEID="FILE_0039_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0039_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101272" ID="PHYS_0040" ORDER="40" ORDERLABEL="32" TYPE="page">
+            <mets:fptr FILEID="FILE_0040_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0040_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101283" ID="PHYS_0041" ORDER="41" ORDERLABEL="33" TYPE="page">
+            <mets:fptr FILEID="FILE_0041_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0041_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101290" ID="PHYS_0042" ORDER="42" ORDERLABEL="34" TYPE="page">
+            <mets:fptr FILEID="FILE_0042_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0042_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101307" ID="PHYS_0043" ORDER="43" ORDERLABEL="35" TYPE="page">
+            <mets:fptr FILEID="FILE_0043_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0043_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101312" ID="PHYS_0044" ORDER="44" ORDERLABEL="36" TYPE="page">
+            <mets:fptr FILEID="FILE_0044_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0044_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101320" ID="PHYS_0045" ORDER="45" ORDERLABEL="37" TYPE="page">
+            <mets:fptr FILEID="FILE_0045_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0045_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101339" ID="PHYS_0046" ORDER="46" ORDERLABEL="38" TYPE="page">
+            <mets:fptr FILEID="FILE_0046_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0046_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101349" ID="PHYS_0047" ORDER="47" ORDERLABEL="39" TYPE="page">
+            <mets:fptr FILEID="FILE_0047_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0047_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101358" ID="PHYS_0048" ORDER="48" ORDERLABEL="40" TYPE="page">
+            <mets:fptr FILEID="FILE_0048_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0048_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101362" ID="PHYS_0049" ORDER="49" ORDERLABEL="41" TYPE="page">
+            <mets:fptr FILEID="FILE_0049_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0049_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101378" ID="PHYS_0050" ORDER="50" ORDERLABEL="42" TYPE="page">
+            <mets:fptr FILEID="FILE_0050_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0050_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101388" ID="PHYS_0051" ORDER="51" ORDERLABEL="43" TYPE="page">
+            <mets:fptr FILEID="FILE_0051_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0051_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101396" ID="PHYS_0052" ORDER="52" ORDERLABEL="44" TYPE="page">
+            <mets:fptr FILEID="FILE_0052_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0052_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101403" ID="PHYS_0053" ORDER="53" ORDERLABEL="45" TYPE="page">
+            <mets:fptr FILEID="FILE_0053_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0053_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101415" ID="PHYS_0054" ORDER="54" ORDERLABEL="46" TYPE="page">
+            <mets:fptr FILEID="FILE_0054_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0054_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101425" ID="PHYS_0055" ORDER="55" ORDERLABEL="47" TYPE="page">
+            <mets:fptr FILEID="FILE_0055_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0055_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101431" ID="PHYS_0056" ORDER="56" ORDERLABEL="48" TYPE="page">
+            <mets:fptr FILEID="FILE_0056_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0056_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101448" ID="PHYS_0057" ORDER="57" ORDERLABEL="49" TYPE="page">
+            <mets:fptr FILEID="FILE_0057_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0057_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101456" ID="PHYS_0058" ORDER="58" ORDERLABEL="50" TYPE="page">
+            <mets:fptr FILEID="FILE_0058_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0058_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101469" ID="PHYS_0059" ORDER="59" ORDERLABEL="51" TYPE="page">
+            <mets:fptr FILEID="FILE_0059_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0059_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101474" ID="PHYS_0060" ORDER="60" ORDERLABEL="52" TYPE="page">
+            <mets:fptr FILEID="FILE_0060_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0060_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101483" ID="PHYS_0061" ORDER="61" ORDERLABEL="53" TYPE="page">
+            <mets:fptr FILEID="FILE_0061_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0061_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101492" ID="PHYS_0062" ORDER="62" ORDERLABEL="54" TYPE="page">
+            <mets:fptr FILEID="FILE_0062_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0062_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101509" ID="PHYS_0063" ORDER="63" ORDERLABEL="55" TYPE="page">
+            <mets:fptr FILEID="FILE_0063_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0063_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101518" ID="PHYS_0064" ORDER="64" ORDERLABEL="56" TYPE="page">
+            <mets:fptr FILEID="FILE_0064_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0064_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101521" ID="PHYS_0065" ORDER="65" ORDERLABEL="57" TYPE="page">
+            <mets:fptr FILEID="FILE_0065_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0065_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101532" ID="PHYS_0066" ORDER="66" ORDERLABEL="58" TYPE="page">
+            <mets:fptr FILEID="FILE_0066_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0066_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101547" ID="PHYS_0067" ORDER="67" ORDERLABEL="59" TYPE="page">
+            <mets:fptr FILEID="FILE_0067_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0067_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101554" ID="PHYS_0068" ORDER="68" ORDERLABEL="60" TYPE="page">
+            <mets:fptr FILEID="FILE_0068_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0068_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101565" ID="PHYS_0069" ORDER="69" ORDERLABEL="61" TYPE="page">
+            <mets:fptr FILEID="FILE_0069_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0069_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101579" ID="PHYS_0070" ORDER="70" ORDERLABEL="62" TYPE="page">
+            <mets:fptr FILEID="FILE_0070_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0070_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101588" ID="PHYS_0071" ORDER="71" ORDERLABEL="63" TYPE="page">
+            <mets:fptr FILEID="FILE_0071_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0071_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101598" ID="PHYS_0072" ORDER="72" ORDERLABEL="64" TYPE="page">
+            <mets:fptr FILEID="FILE_0072_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0072_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101605" ID="PHYS_0073" ORDER="73" ORDERLABEL="65" TYPE="page">
+            <mets:fptr FILEID="FILE_0073_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0073_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101611" ID="PHYS_0074" ORDER="74" ORDERLABEL="66" TYPE="page">
+            <mets:fptr FILEID="FILE_0074_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0074_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101626" ID="PHYS_0075" ORDER="75" ORDERLABEL="67" TYPE="page">
+            <mets:fptr FILEID="FILE_0075_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0075_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101634" ID="PHYS_0076" ORDER="76" ORDERLABEL="68" TYPE="page">
+            <mets:fptr FILEID="FILE_0076_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0076_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101646" ID="PHYS_0077" ORDER="77" ORDERLABEL="69" TYPE="page">
+            <mets:fptr FILEID="FILE_0077_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0077_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101651" ID="PHYS_0078" ORDER="78" ORDERLABEL="70" TYPE="page">
+            <mets:fptr FILEID="FILE_0078_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0078_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101662" ID="PHYS_0079" ORDER="79" ORDERLABEL="71" TYPE="page">
+            <mets:fptr FILEID="FILE_0079_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0079_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101675" ID="PHYS_0080" ORDER="80" ORDERLABEL="72" TYPE="page">
+            <mets:fptr FILEID="FILE_0080_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0080_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101683" ID="PHYS_0081" ORDER="81" ORDERLABEL="73" TYPE="page">
+            <mets:fptr FILEID="FILE_0081_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0081_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101694" ID="PHYS_0082" ORDER="82" ORDERLABEL="74" TYPE="page">
+            <mets:fptr FILEID="FILE_0082_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0082_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101701" ID="PHYS_0083" ORDER="83" ORDERLABEL="75" TYPE="page">
+            <mets:fptr FILEID="FILE_0083_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0083_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101714" ID="PHYS_0084" ORDER="84" ORDERLABEL="76" TYPE="page">
+            <mets:fptr FILEID="FILE_0084_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0084_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101721" ID="PHYS_0085" ORDER="85" ORDERLABEL="77" TYPE="page">
+            <mets:fptr FILEID="FILE_0085_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0085_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101735" ID="PHYS_0086" ORDER="86" ORDERLABEL="78" TYPE="page">
+            <mets:fptr FILEID="FILE_0086_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0086_DEFAULT"/>
+         </mets:div>
+         <mets:div CONTENTIDS="urn:nbn:de:gbv:32-1-10027101745" ID="PHYS_0087" ORDER="87" ORDERLABEL=" - " TYPE="page">
+            <mets:fptr FILEID="FILE_0087_PRESENTATION"/>
+            <mets:fptr FILEID="FILE_0087_DEFAULT"/>
+         </mets:div>
+      </mets:div>
+   </mets:structMap>
+   <mets:structLink>
+      <mets:smLink xlink:to="PHYS_0002" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0003" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0004" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0005" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0006" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0007" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0008" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0009" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0010" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0011" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0012" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0013" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0014" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0015" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0016" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0017" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0018" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0019" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0020" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0021" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0022" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0023" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0024" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0025" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0026" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0027" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0028" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0029" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0030" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0031" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0032" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0033" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0034" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0035" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0036" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0037" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0038" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0039" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0040" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0041" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0042" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0043" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0044" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0045" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0046" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0047" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0048" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0049" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0050" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0051" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0052" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0053" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0054" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0055" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0056" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0057" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0058" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0059" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0060" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0061" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0062" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0063" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0064" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0065" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0066" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0067" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0068" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0069" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0070" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0071" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0072" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0073" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0074" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0075" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0076" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0077" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0078" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0079" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0080" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0081" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0082" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0083" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0084" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0085" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0086" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0087" xlink:from="LOG_0000"/>
+      <mets:smLink xlink:to="PHYS_0002" xlink:from="LOG_0001"/>
+      <mets:smLink xlink:to="PHYS_0003" xlink:from="LOG_0001"/>
+      <mets:smLink xlink:to="PHYS_0004" xlink:from="LOG_0001"/>
+      <mets:smLink xlink:to="PHYS_0005" xlink:from="LOG_0001"/>
+      <mets:smLink xlink:to="PHYS_0006" xlink:from="LOG_0001"/>
+      <mets:smLink xlink:to="PHYS_0007" xlink:from="LOG_0001"/>
+      <mets:smLink xlink:to="PHYS_0010" xlink:from="LOG_0002"/>
+      <mets:smLink xlink:to="PHYS_0011" xlink:from="LOG_0003"/>
+      <mets:smLink xlink:to="PHYS_0012" xlink:from="LOG_0004"/>
+      <mets:smLink xlink:to="PHYS_0013" xlink:from="LOG_0005"/>
+      <mets:smLink xlink:to="PHYS_0014" xlink:from="LOG_0005"/>
+      <mets:smLink xlink:to="PHYS_0015" xlink:from="LOG_0005"/>
+      <mets:smLink xlink:to="PHYS_0016" xlink:from="LOG_0005"/>
+      <mets:smLink xlink:to="PHYS_0017" xlink:from="LOG_0005"/>
+      <mets:smLink xlink:to="PHYS_0018" xlink:from="LOG_0005"/>
+      <mets:smLink xlink:to="PHYS_0019" xlink:from="LOG_0005"/>
+      <mets:smLink xlink:to="PHYS_0020" xlink:from="LOG_0005"/>
+      <mets:smLink xlink:to="PHYS_0021" xlink:from="LOG_0005"/>
+      <mets:smLink xlink:to="PHYS_0022" xlink:from="LOG_0005"/>
+      <mets:smLink xlink:to="PHYS_0023" xlink:from="LOG_0006"/>
+      <mets:smLink xlink:to="PHYS_0024" xlink:from="LOG_0006"/>
+      <mets:smLink xlink:to="PHYS_0025" xlink:from="LOG_0006"/>
+      <mets:smLink xlink:to="PHYS_0026" xlink:from="LOG_0006"/>
+      <mets:smLink xlink:to="PHYS_0027" xlink:from="LOG_0006"/>
+      <mets:smLink xlink:to="PHYS_0028" xlink:from="LOG_0006"/>
+      <mets:smLink xlink:to="PHYS_0029" xlink:from="LOG_0006"/>
+      <mets:smLink xlink:to="PHYS_0030" xlink:from="LOG_0006"/>
+      <mets:smLink xlink:to="PHYS_0031" xlink:from="LOG_0006"/>
+      <mets:smLink xlink:to="PHYS_0032" xlink:from="LOG_0007"/>
+      <mets:smLink xlink:to="PHYS_0033" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0034" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0035" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0036" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0037" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0038" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0039" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0040" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0041" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0042" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0043" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0044" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0045" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0046" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0047" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0048" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0049" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0050" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0051" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0052" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0053" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0054" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0055" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0056" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0057" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0058" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0059" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0060" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0061" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0062" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0063" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0064" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0065" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0066" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0067" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0068" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0069" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0070" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0071" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0072" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0073" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0074" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0075" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0076" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0077" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0078" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0079" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0080" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0081" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0082" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0083" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0084" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0085" xlink:from="LOG_0008"/>
+      <mets:smLink xlink:to="PHYS_0033" xlink:from="LOG_0009"/>
+      <mets:smLink xlink:to="PHYS_0034" xlink:from="LOG_0009"/>
+      <mets:smLink xlink:to="PHYS_0035" xlink:from="LOG_0009"/>
+      <mets:smLink xlink:to="PHYS_0036" xlink:from="LOG_0009"/>
+      <mets:smLink xlink:to="PHYS_0037" xlink:from="LOG_0009"/>
+      <mets:smLink xlink:to="PHYS_0038" xlink:from="LOG_0009"/>
+      <mets:smLink xlink:to="PHYS_0039" xlink:from="LOG_0009"/>
+      <mets:smLink xlink:to="PHYS_0040" xlink:from="LOG_0009"/>
+      <mets:smLink xlink:to="PHYS_0041" xlink:from="LOG_0009"/>
+      <mets:smLink xlink:to="PHYS_0042" xlink:from="LOG_0009"/>
+      <mets:smLink xlink:to="PHYS_0043" xlink:from="LOG_0009"/>
+      <mets:smLink xlink:to="PHYS_0044" xlink:from="LOG_0009"/>
+      <mets:smLink xlink:to="PHYS_0045" xlink:from="LOG_0009"/>
+      <mets:smLink xlink:to="PHYS_0045" xlink:from="LOG_0010"/>
+      <mets:smLink xlink:to="PHYS_0046" xlink:from="LOG_0010"/>
+      <mets:smLink xlink:to="PHYS_0047" xlink:from="LOG_0010"/>
+      <mets:smLink xlink:to="PHYS_0048" xlink:from="LOG_0010"/>
+      <mets:smLink xlink:to="PHYS_0049" xlink:from="LOG_0010"/>
+      <mets:smLink xlink:to="PHYS_0050" xlink:from="LOG_0010"/>
+      <mets:smLink xlink:to="PHYS_0051" xlink:from="LOG_0010"/>
+      <mets:smLink xlink:to="PHYS_0052" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0053" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0054" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0055" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0056" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0057" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0058" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0059" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0060" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0061" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0062" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0063" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0064" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0065" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0066" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0067" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0068" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0069" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0070" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0071" xlink:from="LOG_0011"/>
+      <mets:smLink xlink:to="PHYS_0072" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0073" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0074" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0075" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0076" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0077" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0078" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0079" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0080" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0081" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0082" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0083" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0084" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0085" xlink:from="LOG_0012"/>
+      <mets:smLink xlink:to="PHYS_0086" xlink:from="LOG_0013"/>
+   </mets:structLink>
+</mets:mets>

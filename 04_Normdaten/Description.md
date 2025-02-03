@@ -22,17 +22,8 @@ Normierte Begriffe können Personennamen, Körperschaften oder auch abstrakte Be
 |Weitere Angaben 	      | Leiter Altertumsmuseum Mainz (1910-1934). |
 |Beziehungen zu Organisationen  | 	Altertumsmuseum (Mainz); Mainzer Altertumsverein |
 |Typ 	                  | Person (piz) |
-|Autor von 	              | 4 Publikationen <br>                      
-    Die Deckengemälde der Augustinerkirche zu Mainz
-    Neeb, Ernst. - Mainz : Druckerei Lehrlingshaus, 1936
-    Das kurfürstliche Schloss zu Mainz
-    Neeb, Ernst. - Wiesbaden : Dioskuren-Verlag, 1924
-    ... |
-
-|Beteiligt an            | 	1 Publikation <br>
-
-    Beiträge zur Kunst und Geschichte des Mainzer Lebensraumes
-    Mainz : [Mainzer Stadtbibliothek], 1936 |
+|Autor von 	              | 4 Publikationen <br>Die Deckengemälde der Augustinerkirche zu Mainz; <br>Neeb, Ernst. - Mainz : Druckerei Lehrlingshaus, 1936 Das kurfürstliche Schloss zu Mainz; <br>Neeb, Ernst. - Wiesbaden : Dioskuren-Verlag, 1924; <br>... |
+|Beteiligt an            | 	1 Publikation <br>Beiträge zur Kunst und Geschichte des Mainzer Lebensraumes, Mainz : [Mainzer Stadtbibliothek], 1936 |
 
 
 
@@ -41,4 +32,4 @@ Normierte Begriffe können Personennamen, Körperschaften oder auch abstrakte Be
 ## LCNAF
 
 
-[^1] https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html [zuletzt abgerufen am: 03.02.2025].
+[^1]: https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html [zuletzt abgerufen am: 03.02.2025].

@@ -17,26 +17,22 @@ Normierte Begriffe können Personennamen, Körperschaften oder auch abstrakte Be
 |Quelle 	              | Mainzer Zeitschr. 34, 1939, 109-112; Internet (Stand: 10.06.2015): http://de.wikipedia.org/wiki/Ernst_Neeb |
 |Zeit 	                  | Lebensdaten: 1861-1939 |
 |Land 	                  | Deutschland (XA-DE) |
-Geografischer Bezug 	Geburtsort: Bischofsheim Kr. Groß Gerau
-Sterbeort: Mainz
-Beruf(e) 	Kunsthistoriker
-Lehrer
-Weitere Angaben 	Leiter Altertumsmuseum Mainz (1910-1934).
-Beziehungen zu Organisationen 	Altertumsmuseum (Mainz)
-Mainzer Altertumsverein
-Typ 	Person (piz)
-Autor von 	4 Publikationen
-
+|Geografischer Bezug 	  |Geburtsort: Bischofsheim Kr. Groß Gerau; Sterbeort: Mainz |
+|Beruf(e) 	              | Kunsthistoriker; Lehrer |
+|Weitere Angaben 	      | Leiter Altertumsmuseum Mainz (1910-1934). |
+|Beziehungen zu Organisationen  | 	Altertumsmuseum (Mainz); Mainzer Altertumsverein |
+|Typ 	                  | Person (piz) |
+|Autor von 	              | 4 Publikationen <br>                      
     Die Deckengemälde der Augustinerkirche zu Mainz
     Neeb, Ernst. - Mainz : Druckerei Lehrlingshaus, 1936
     Das kurfürstliche Schloss zu Mainz
     Neeb, Ernst. - Wiesbaden : Dioskuren-Verlag, 1924
-    ...
+    ... |
 
-Beteiligt an 	1 Publikation
+|Beteiligt an            | 	1 Publikation <br>
 
     Beiträge zur Kunst und Geschichte des Mainzer Lebensraumes
-    Mainz : [Mainzer Stadtbibliothek], 1936
+    Mainz : [Mainzer Stadtbibliothek], 1936 |
 
 
 

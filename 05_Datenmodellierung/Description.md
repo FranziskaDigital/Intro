@@ -14,9 +14,14 @@ Unstrukturierte Daten sind Daten, die nicht nach einem vorgegebenen Datenmodell 
 
 
 ## Datenmodellierung
-
+Datenmodelle haben verschiedene Funktionen:
+1. Sie ermöglichen komplexe maschinelle Operationen auf den Daten
+2. Sie dienen als Grundlage der Kommunikation über die Daten
+3. Sie sichern eine höhere Qualität der Daten, indem sie Bedingungen formulieren, denen Daten bei der Eingabe entsprechen müssen
+4. Sie ermöglichen den Austausch oder das Zusammenführen von Daten, wenn sie allgemeinen Standards folgen und tragen auf diese Weise zur Umsetzung der FAIR-Kriterien bei.
 
 ### Konzeptuelles Datenbankmodell
+
 
 ### Logisches Datenbankmodell
 

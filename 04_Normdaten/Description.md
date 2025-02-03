@@ -8,6 +8,7 @@ Normierte Begriffe können Personennamen, Körperschaften oder auch abstrakte Be
 
 **Beispieleintrag GND**
 
+|                        |                                  |
 |------------------------|----------------------------------|
 |Link zu diesem Datensatz | https://d-nb.info/gnd/143599828 |
 |Person 	              | Neeb, Ernst                     |

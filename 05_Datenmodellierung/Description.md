@@ -23,11 +23,16 @@ Datenmodelle haben verschiedene Funktionen:
 ![Datenmodell](https://upload.wikimedia.org/wikipedia/commons/d/d4/DatMod_v_semMod_zur_DBK.svg)
 
 ### Konzeptuelles Datenbankmodell
+Bei der Erstellung eines konzeptuellen Datenbankmodells geht es in erster Linie um die Identifizierung von Entitäten, Attributen und Relationen. Für die Beschreibung der konzeptuellen Ebene wird ein sogenanntes Entity-Relationship-Modell (ERM) verwendet. Hierfür kann beispielsweise die [Unified Modeling Language](https://de.wikipedia.org/wiki/Unified_Modeling_Language) verwendet werden.
 
 
 ### Logisches Datenbankmodell
+Das logische Datenbankmodell dient der Übertragung des konzeptuellen Datenbankmodell auf eine bestimmte Technologie bzw. Datenbankart, bspw. die Übertragung des ERM auf ein bestimmtes XML-Schema, eine relationale oder eine nicht-relationale Datenbank.
+Je nach Datenbanksystem werden hier beispielsweise Normalisierungen durchgeführt und/oder Primär- und Fremschlüssel festgelegt.
 
 ### Physisches Datenbankmodell
+Bei dem physischen Datenbankmodell werden die Daten dann entsprechend der jeweiligen Datenbankart oder des jeweiligen XML-Schemas übertragen. Das heißt, es werden entsprechende Tabellen oder entsprechende Schlüssel-Wert-Paare o.ä. in der Datenbank erstellt.
+Darüber hinaus geht es auf dieser Ebene darum, Indizes zu erstellen, um Suchzugriffe zu beschleunigen oder auch um die Festlegungen zur Datensicherung.
 
 ### Checkliste zur Erstellung eines Datenbankmodells
 

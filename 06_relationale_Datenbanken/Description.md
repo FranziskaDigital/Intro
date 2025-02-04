@@ -327,7 +327,14 @@ GROUP BY
 
 LEFT JOIN sorgt dafür, dass auch Straßen ohne Objekte in der Liste erscheinen. Ohne diese zwei LEFT JOIN-Operationen würden Straßen, die keine Orte oder Objekte haben, in der Ausgabe fehlen.
 GROUP BY Straßen.StrID gruppiert die Daten nach Straßen.
-SQLite unterstützt RIGHT JOIN nicht direkt. Stattdessen kann man die gleiche Abfrage mit LEFT JOIN umdrehen und kommt ebenfalls zum gewünschten Ziel.
+
+
+JOIN-Befehle ermöglichen unterschiedliche Arten, Tabellen miteinander zu verknüpfen
+INNER JOIN: gibt nur Datensätze zurück, die in beiden Tabellen übereinstimmen; Syntax:
+SELECT * FROM Tabelle1 INNER JOIN Tabelle2 ON Tabelle1.Spalte = Tabelle2.Spalte;
+
+LEFT JOIN: gibt alle Datensätze der linken Tabelle und die übereinstimmenden Datensätze der rechten Tabelle zurück; Syntax:
+SELECT * FROM Tabelle1 LEFT JOIN Tabelle2 ON Tabelle1.Spalte = Tabelle2.Spalte;
 
 
 

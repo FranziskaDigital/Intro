@@ -98,7 +98,7 @@ CREATE TABLE personen (
 #### Datentypen definieren
 Bei der Erstellung einer Tabelle in der Datenbank werden auch die Datentypen festgelegt (s.o.). Möglich sind hier beispielsweise folgende Datentypen:
 
-- **INT:** ›Integer‹ steht für Ganzzahlen von –2<sup>31sup> bis 2<sup>31sup> –1. 
+- **INT:** ›Integer‹ steht für Ganzzahlen von –2<sup>31</sup> bis 2<sup>31</sup> –1. 
 - **FLOAT:** Dieser Datentyp steht zur Verfügung, wenn Fließkommazahlen benötigt werden, z. B.1,25. 
 - **DATE:** Hierbei handelt es sich um ein Datumsformat, das auf den Tag genau angegeben wird. 
 - **VARCHAR:** Steht für ›character‹, also eine bestimmte Anzahl von Buchstaben. Die maximale Länge wird in Klammern dahinter festgelegt. Im Gegensatz zu CHAR, bei dem der maximale Speicherplatz reserviert wird, werden nur so viele Bytes verbraucht, wie Zeichen gespeichert werden.

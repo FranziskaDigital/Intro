@@ -10,6 +10,8 @@ Häufig handelt es sich jedoch um zusätzlich hinzugefügte fortlaufende Zahlen,
 Ein solcher Schlüssel kann in einer anderen Tabelle als **Fremdschlüssel** verwendet werden, um eine Beziehung zwischen zwei Tabellen herzustellen.
 Ein Fremdschlüssel ist demnach ein Attribut oder eine Attributkombination, der in einer Tabelle auf den Primärschlüssel einer anderen Tabelle verweist.
 
+Relationale Datenbanken sind besonders sinnvoll, wenn große Mengen an strukturierten und miteinander verknüpften Daten effizient verwaltet werden müssen. Sie bieten durch das relationale Modell eine hohe Datenintegrität und Konsistenz, insbesondere durch die Einhaltung des **ACID-Prinzips** (Atomicity, Consistency, Isolation, Durability).
+
 ## Beziehungen
 
 ### 1:1 Beziehung
@@ -28,7 +30,7 @@ Ziel einer Normalisierung ist die Verringerung von Redundanzen und Inkosistenzen
 
 **Zweite Normalform (2NF):** Die 1NF muss hergestellt sein UND es dürfen keine partiellen Abhängigkeiten bestehen
 
-**Dritte Normalform (3NF):**Die 2NF muss hergestellt sein UND es dürfen keine transitiven Abhängigkeiten bestehen
+**Dritte Normalform (3NF):** Die 2NF muss hergestellt sein UND es dürfen keine transitiven Abhängigkeiten bestehen
 
 
 ## SQL / SQLite
@@ -325,6 +327,8 @@ GROUP BY
 
 LEFT JOIN sorgt dafür, dass auch Straßen ohne Objekte in der Liste erscheinen. Ohne diese zwei LEFT JOIN-Operationen würden Straßen, die keine Orte oder Objekte haben, in der Ausgabe fehlen.
 GROUP BY Straßen.StrID gruppiert die Daten nach Straßen.
+
+**Hinweis:** Für weitere Infos und Abfragen, siehe: SQLite-DB Datenbank.db und Inventare.sql.
 
 
 [^1]: Harald Klinke: Datenbanken, S. 111, in: Fotis Jannidis et al.: Digital Humanities. Eine Einführung, Stuttgart 2017.

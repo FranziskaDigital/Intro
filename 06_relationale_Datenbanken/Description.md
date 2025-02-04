@@ -98,16 +98,16 @@ CREATE TABLE personen (
 #### Datentypen definieren
 Bei der Erstellung einer Tabelle in der Datenbank werden auch die Datentypen festgelegt (s.o.). Möglich sind hier beispielsweise folgende Datentypen:
 
-- **INT:** ›Integer‹ steht für Ganzzahlen von –2<sup>31</sup> bis 2<sup>31</sup> –1. 
-- **FLOAT:** Dieser Datentyp steht zur Verfügung, wenn Fließkommazahlen benötigt werden, z. B.1,25. 
-- **DATE:** Hierbei handelt es sich um ein Datumsformat, das auf den Tag genau angegeben wird. 
-- **VARCHAR:** Steht für ›character‹, also eine bestimmte Anzahl von Buchstaben. Die maximale Länge wird in Klammern dahinter festgelegt. Im Gegensatz zu CHAR, bei dem der maximale Speicherplatz reserviert wird, werden nur so viele Bytes verbraucht, wie Zeichen gespeichert werden.
-- **TEXT:** Ähnlich wie VARCHAR kann hier eine Buchstabenfolge von maximal 65535 Zeichen gespeichert werden.
+- **INT** ›Integer‹ steht für Ganzzahlen von –2<sup>31</sup> bis 2<sup>31</sup> –1. 
+- **FLOAT** Dieser Datentyp steht zur Verfügung, wenn Fließkommazahlen benötigt werden, z. B.1,25. 
+- **DATE** Hierbei handelt es sich um ein Datumsformat, das auf den Tag genau angegeben wird. 
+- **VARCHAR** Steht für ›character‹, also eine bestimmte Anzahl von Buchstaben. Die maximale Länge wird in Klammern dahinter festgelegt. Im Gegensatz zu CHAR, bei dem der maximale Speicherplatz reserviert wird, werden nur so viele Bytes verbraucht, wie Zeichen gespeichert werden.
+- **TEXT** Ähnlich wie VARCHAR kann hier eine Buchstabenfolge von maximal 65535 Zeichen gespeichert werden.
 
 Die Angabe von **NOT NULL** bedeutet, dass der Wert nicht leer sein darf.
 Der Zusatz **AUTO_INCREMENT** zum Befehl bedeutet, dass beim Anlegen des Datensatzes automatisch die ID um eins erhöht wird.
 
-Wenn kein Primärschlüssel bereits beim Erstellen der Tabelle vergeben wurde, kann einer Tabelle über den **ALTER-Befehl** in jedem Feld der Tabelle ein Primärschlüssel nachträglich zugewiesen werden.
+Wenn kein Primärschlüssel bereits beim Erstellen der Tabelle vergeben wurde, kann in einer SQL-Datenbank wie beispielsweise MySQL oder PostgreSQL, einer Tabelle über den **ALTER-Befehl** in jedem Feld der Tabelle ein Primärschlüssel nachträglich zugewiesen werden. In SQLite wird der ALTER-Befehl nur begrenzt unterstützt. Vollständigkeitshabler sei hier dennoch gezeigt, wie der ALTER-Befehl in anderen SQL-Datenbanksystemen verwendet werden könnte.
 
 Bspw.:
 
@@ -116,31 +116,215 @@ ALTER TABLE 'personen' ADD PRIMARY KEY('id');
 ```
 
 **Beziehungen erstellen** 
-XxXXXXXXXX
+
+In **MySQL- oder PostgreSQL-Datenbanken** können Beziehungen ebenfalls mit dem ALTER-Befehl erzeugt werden. Dies erfolgt dann nach diesem Schema:
+
+```
+ALTER TABLE InventarStraße 
+ADD CONSTRAINT fk_inventar FOREIGN KEY (InvID) REFERENCES Inventare (InvID) ON DELETE CASCADE ON UPDATE CASCADE,
+ADD CONSTRAINT fk_strasse FOREIGN KEY (StrID) REFERENCES Straßen (StrID) ON DELETE CASCADE ON UPDATE CASCADE;
+```
+
+In **SQLite** erfolgt das Erstellen der Beziehungen hingegen über die Fremdschlüssel ohne den ALTER-Befehl.
+
+In unserem Beispiel haben wir die Tabelle Inventare und die Tabelle Straßen, beide verfügen über Primärschlüssel.
+
+Die Beziehung zwischen den beiden Tabellen ist eine n:m-Beziehung.
+Die Tabelle InventarStraße bringt diese Beziehung zum Asudruck, indem sie zwei Fremdschlüssel enthält.
+
+Orte sind mit Straßen verknüpft (n:1-Beziehung). 
+Ein Objekt (Objekte) befindet sich an einem bestimmten Ort (Orte), weshalb die OrtID in Objekte hier ein Fremdschlüssel ist, der auf Orte(OrtID) verweist.
+
+```
+CREATE TABLE Inventare (
+    InvID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Autor TEXT NOT NULL, 
+    Titel TEXT NOT NULL,
+    Verlag TEXT,
+    Erscheinungsjahr INTEGER,
+    Band TEXT,
+    Umfang TEXT
+);
+
+-- Tabelle "Straßen" angelegt
+CREATE TABLE Straßen (
+    StrID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Name TEXT NOT NULL,
+    Altname TEXT,
+    SeiteVon INTEGER,
+    SeiteBis INTEGER
+);
+
+-- InventarStraße angelegt
+CREATE TABLE InventarStraße (
+    InvID INTEGER NOT NULL,
+    StrID INTEGER NOT NULL,
+    PRIMARY KEY (InvID, StrID),
+    FOREIGN KEY (InvID) REFERENCES Inventare (InvID) ON DELETE CASCADE,
+    FOREIGN KEY (StrID) REFERENCES Straßen (StrID) ON DELETE CASCADE
+);
+
+
+CREATE TABLE Orte (
+    OrtID INTEGER PRIMARY KEY AUTOINCREMENT,  -- Primärschlüssel
+    StrID INTEGER NOT NULL,                   -- Fremdschlüssel auf Straßen.StrID
+    Hausnummer TEXT NOT NULL,                 -- Hausnummer (z. B. '12', '12a')
+    FOREIGN KEY (StrID) REFERENCES Straßen(StrID) 
+        ON DELETE CASCADE                     -- Löschen der Straße entfernt auch den Ort
+        ON UPDATE CASCADE                     -- Änderungen werden weitergegeben
+);
+
+CREATE TABLE Objekte (
+    ObjID INTEGER PRIMARY KEY AUTOINCREMENT,  -- Primärschlüssel
+    Name TEXT NOT NULL,                       -- Objektname
+    Material TEXT,                            -- Material des Objekts
+    Datierung TEXT,                           -- Datierung des Objekts
+    Provenienz TEXT,                          -- Herkunft des Objekts
+    OrtID INTEGER NOT NULL,                   -- Fremdschlüssel auf Orte.OrtID
+    FOREIGN KEY (OrtID) REFERENCES Orte(OrtID) 
+        ON DELETE CASCADE                     -- Löschen eines Ortes entfernt auch die Objekte
+        ON UPDATE CASCADE                     -- Änderungen werden weitergegeben
+);
+
+```
+
+Eine Grafische Darstellung der Beziehungen:
+
+             +------------------+
+             |   Inventare      |
+             |------------------|
+             | InvID (PK)       |
+             | Autor            |
+             | Titel            |
+             | Verlag           |
+             | Erscheinungsjahr  |
+             | Band             |
+             | Umfang           |
+             +------------------+
+                     |
+                     |  (Viele-zu-Viele)
+                     v
+      +--------------------------------+
+      |          InventarStraße        |
+      |--------------------------------|
+      | InvID (PK, FK) -> Inventare   |
+      | StrID (PK, FK) -> Straßen     |
+      +--------------------------------+
+                     |
+                     v
+             +------------------+
+             |     Straßen      |
+             |------------------|
+             | StrID (PK)       |
+             | Name             |
+             | Altname          |
+             | SeiteVon         |
+             | SeiteBis         |
+             +------------------+
+                     |
+                     |  (Viele-zu-Eins)
+                     v
+             +------------------+
+             |      Orte        |
+             |------------------|
+             | OrtID (PK)       |
+             | StrID (FK) -> Straßen |
+             | Hausnummer        |
+             +------------------+
+                     |
+                     |  (Viele-zu-Eins)
+                     v
+             +------------------+
+             |    Objekte       |
+             |------------------|
+             | ObjID (PK)       |
+             | Name             |
+             | Material         |
+             | Datierung        |
+             | Provenienz       |
+             | OrtID (FK) -> Orte |
+             +------------------+
 
 
 ### Daten einfügen
 Wenn die Tabellen erstellt und die Beziehungen hergestellt sind, müssen noch die Daten hinzugefügt werden. Hierzu benötigt man u.a. die Befehle:
 
-- **INSERT:**
-- **UPDATE:**
-- **DELETE:**
+- **INSERT** fügt der Tabelle eine neue Zeile hinzu
+- **UPDATE** verändert eine bestimmte Zeile in einer Tabelle
+- **DELETE** löscht eine Zeile in einer Tabelle
 
+
+**Einen Wert eintragen**
+```
+INSERT INTO Straßen (Name, Altname, SeiteVon, SeiteBis) 
+VALUES 
+    ('Acker', NULL, 9, 9);
+```
+
+**Viele Werte eintragen**
 
 ```
-INSERT INTO personen (name, alter, stadt) VALUES ('Max', 30, 'Berlin');
-INSERT INTO personen (name, alter, stadt) VALUES ('Anna', 25, 'Hamburg');
+INSERT INTO Straßen (Name, Altname, SeiteVon, SeiteBis) 
+VALUES 
+    ('Acker', NULL, 9, 9),
+    ('Altenauergasse', NULL, 9, 9),
+    ('Augustinerstrasse', NULL, 10, 12),
+    ('Augustinergässchen', NULL, 12, 12),
+    ('Ballplatz', NULL, 13, 15),
+    ('Balthasarmalergasse', NULL, 15, 15),
+    ('Bauerngasse', NULL, 15, 16),
+    ('Bauhofstrasse', NULL, 16, 16),
+    ('Betzelgasse', NULL, 17, 19),
+    ('Bilhildisstrasse', NULL, 19, 20),
+    ('Birnbaumgasse', NULL, 20, 21),
+    ('Bischofsplatz', NULL, 21, 22),
+    ('Grosse Bleiche', NULL, 22, 26),
+    ('Bleiche, mittlere', NULL, 26, 27),
+    ('Bleiche, hintere', NULL, 28, 28),
+    ('Bockshöfchen', NULL, 28, 28),
+    ('Brand', NULL, 28, 30);
 ```
 
+Wenn man einen Fehler in einer Zeile korrigieren möchte, nutzt man hierfür den UPDATE-Befehl. Beispielsweise möchte ich den Straßennamen Acker in Ackerwand umändern, dann wäre der Befehl hierfür:
+
+```
+UPDATE 'Straßen' SET 'Name'=Ackerwand WHERE 'StrID'=1;
+```
 
 ### Daten abfragen
+Wenn nun alle Daten in die Tabellen eingetragen wurden, möchten wir den Inhalt auch abfragen und auswerten können. Bei einer solchen Abfrage an das System werden zunächst die gewünschten Spalten und Relationen selektiert. Wird zudem ein Suchkriterium übergeben, können bestimmte Datensätze ausgewählt werden.
+
+Die Befehle für Datenbankabfragen in einer SQL-Datenbamk lauten daher:
+
+**SELECT** Welche Spalten sollen ausgewählt werden?
+**FROM** In welcher Tabelle befindet sich die Spalte bzw. der gesuchte Datensatz?
+**WHERE** Welche weiteren Bedingungen müssen erfüllt sein, um die Abfrage sinnvoll beantworten zu können?
+
+Alle Daten in einer Tabelle:
 
 ```
 SELECT * FROM personen;
 ```
 
 
+Wenn ich die Anzahl der Objekte pro Straße ermitteln möchte:
+
+```
+SELECT 
+    Straßen.Name AS Straßenname,
+    COUNT(Objekte.ObjID) AS Objektanzahl
+FROM 
+    Straßen
+LEFT JOIN                   -- Verbindet die Tabelle Straßen mit der Tabelle Orte. Dadurch werden alle Straßen auch dann berücksichtigt, wenn es für sie keinen zugehörigen Ort gibt.
+    Orte ON Straßen.StrID = Orte.StrID
+LEFT JOIN                   -- Verbindet die bereit verknüpfte Tabelle Orte mit Objekte. Dadurch werden alle Orte auch dann berücksichtigt, wenn sie keine Objekte enthalten.
+    Objekte ON Orte.OrtID = Objekte.OrtID
+GROUP BY 
+    Straßen.StrID;
+```
+
+LEFT JOIN sorgt dafür, dass auch Straßen ohne Objekte in der Liste erscheinen. Ohne diese zwei LEFT JOIN-Operationen würden Straßen, die keine Orte oder Objekte haben, in der Ausgabe fehlen.
+GROUP BY Straßen.StrID gruppiert die Daten nach Straßen.
 
 
-
-[^1]: Harald Klinke: Datenbanken, S. 111, in: Jannidis et al.: Digital Humanities
+[^1]: Harald Klinke: Datenbanken, S. 111, in: Fotis Jannidis et al.: Digital Humanities. Eine Einführung, Stuttgart 2017.

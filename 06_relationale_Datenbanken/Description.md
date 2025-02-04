@@ -327,6 +327,9 @@ GROUP BY
 
 LEFT JOIN sorgt dafür, dass auch Straßen ohne Objekte in der Liste erscheinen. Ohne diese zwei LEFT JOIN-Operationen würden Straßen, die keine Orte oder Objekte haben, in der Ausgabe fehlen.
 GROUP BY Straßen.StrID gruppiert die Daten nach Straßen.
+SQLite unterstützt RIGHT JOIN nicht direkt. Stattdessen kann man die gleiche Abfrage mit LEFT JOIN umdrehen und kommt ebenfalls zum gewünschten Ziel.
+
+
 
 **Hinweis:** Für weitere Infos und Abfragen, siehe: SQLite-DB Datenbank.db und Inventare.sql.
 

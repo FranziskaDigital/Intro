@@ -16,6 +16,11 @@ Eine Art von NoSQL-Datenbanken, die auf einem sehr einfachen Konzept basiert sin
 - **Flexibilität:** Sind in der Regel weniger strukturiert als relationale Datenbanken und erfordern kein vordefiniertes Schema. Bedeutet aber unter Umständen auch: komplexe Abfragen/Operationen, die Beziehungen zwischen Daten erfordern, können weniger effizient sein
 - Gut geeignet für **Anwendungsfälle**, die schnelle Lese- und Schreibzugriffe auf eine große Anzahl von Schlüssel-Wert-Paaren erfordern und wo Flexibilität in der Datenmodellierung wichtiger ist als komplexe Abfragen und Transaktionen
 
+## Dokumentenorientierte Datenbanken
+Eine Art von NoSQL-Datenbank, die Daten in Dokumenten speichert. Die Dokumente enthalten strukturierte oder semi-strukturierte Daten.
+- **Flexibilität:** Es braucht kein festes Schema innerhalb eines Dokuments. Jedes Feld kann unterschiedlich definiert sein.
+- Gut geeignet für **Anwendungsfälle** im Bereich der Content-Management-Systeme oder für Benutzerdaten in Web-Apps, jedoch weniger geeignet für stark verknüpfte Daten.
+
 ## Graphdatenbanken
 Eine weitere Art von NoSQL-Datenbank, die darauf spezialisiert ist, Daten als Graphen zu speichern und zu verarbeiten.
 - **Datenmodellierung als Graph**: Modell aus Knoten und Kanten, die miteinander verbunden sind. Eignet sich zur Darstellung von Beziehungen
